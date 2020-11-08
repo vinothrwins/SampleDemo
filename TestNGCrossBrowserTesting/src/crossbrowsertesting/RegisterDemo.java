@@ -18,6 +18,7 @@ public class RegisterDemo extends HandlingBrowser{
 			
 			
 			// Parameterized all Input Values
+			// The inpput values are updated by Vinoth R
 			
 			String regForm = "Registration Form";
 			String regFormDemo = "Register For Demo";
@@ -31,7 +32,7 @@ public class RegisterDemo extends HandlingBrowser{
 			String countryDrpDnValue = "United States of America";
 			String emailInput= "Var_102@gmail.com";
 			String dateOfDemoValue = "09/30/2020";
-			String hourInput = "04";
+			String hourInput = "05";
 			String minuteInput = "25";
 			String ampmInput = "PM";
 			String mobileNumberValue = "9198762134";
