@@ -18,7 +18,8 @@ public class RegisterDemo extends HandlingBrowser{
 			
 			
 			// Parameterized all Input Values
-			// The inpput values are updated by Vinoth R
+			// The input values are updated by Vinoth R
+			// Reported event added by Anand
 			
 			String regForm = "Registration Form";
 			String regFormDemo = "Register For Demo";
@@ -89,7 +90,7 @@ public class RegisterDemo extends HandlingBrowser{
 
 			// Click on Demo Site-Registration Form
 			driver.findElement(By.partialLinkText(regForm)).click();
-		    System.out.println("Navigated to Register Demo Page");
+		    System.out.println("Navigated to Register Demo Page Sucessfully");
 	  }
 
 	  
