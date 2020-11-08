@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Automation Suite]">
+  <test thread-count="5" parallel="tests" name="Chrome Browser(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://aiforevery1.com"/>
+    <classes>
+      <class name="crossbrowsertesting.RegisterDemo">
+        <methods>
+          <include name="validateSuccessfulMsg"/>
+          <include name="launchApplication"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- crossbrowsertesting.RegisterDemo -->
+    </classes>
+  </test> <!-- Chrome Browser(failed) -->
+  <test thread-count="5" parallel="tests" name="Edge Browser(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https://aiforevery1.com"/>
+    <classes>
+      <class name="crossbrowsertesting.RegisterDemo">
+        <methods>
+          <include name="validateSuccessfulMsg"/>
+          <include name="launchApplication"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- crossbrowsertesting.RegisterDemo -->
+    </classes>
+  </test> <!-- Edge Browser(failed) -->
+  <test thread-count="5" parallel="tests" name="Firefox Browser(failed)">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="url" value="https://aiforevery1.com"/>
+    <classes>
+      <class name="crossbrowsertesting.RegisterDemo">
+        <methods>
+          <include name="validateSuccessfulMsg"/>
+          <include name="launchApplication"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- crossbrowsertesting.RegisterDemo -->
+    </classes>
+  </test> <!-- Firefox Browser(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

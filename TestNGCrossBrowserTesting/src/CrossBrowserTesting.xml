@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Automation Suite">
+
+  <test name="Chrome Browser">
+  <parameter name = "browser" value ="chrome" />
+  <parameter name = "url" value ="https://aiforevery1.com" />
+    <classes>
+      <class name="crossbrowsertesting.RegisterDemo"/>
+      <class name="crossbrowsertesting.HandlingBrowser"/>      
+    </classes>
+  </test> <!-- Test -->  
+  
+  <test name="Firefox Browser">
+  <parameter name = "browser" value ="firefox" />
+  <parameter name = "url" value ="https://aiforevery1.com" />
+    <classes>
+      <class name="crossbrowsertesting.RegisterDemo"/>
+      <class name="crossbrowsertesting.HandlingBrowser"/>      
+    </classes>
+  </test> <!-- Test -->  
+  
+  
+    <test name="Edge Browser">
+  <parameter name = "browser" value ="edge" />
+  <parameter name = "url" value ="https://aiforevery1.com" />
+    <classes>
+      <class name="crossbrowsertesting.RegisterDemo"/>
+      <class name="crossbrowsertesting.HandlingBrowser"/>      
+    </classes>
+  </test> <!-- Test -->   
+  
+  
+</suite> <!-- Suite -->
